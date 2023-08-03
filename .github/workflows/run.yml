@@ -9,7 +9,7 @@ jobs:
     run:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/setup-node@master
+            - uses: jiyeong08/setup-node@master
               with:
                   node-version: 16
             # If you edit the .js files and want to run them in your GitHub Action, you need to:
